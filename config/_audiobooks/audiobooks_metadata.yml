@@ -1,0 +1,192 @@
+---
+metadata:
+  Dan Brown:
+    albums:
+      Angels and Demons:
+        file_poster: config/assets/audiobooks/Brown, Dan/Angels and Demons.webp
+      Inferno:
+        file_poster: config/assets/audiobooks/Brown, Dan/Inferno.webp
+      Origin:
+        file_poster: config/assets/audiobooks/Brown, Dan/Origin.webp
+      The Da Vinci Code:
+        file_poster: config/assets/audiobooks/Brown, Dan/The Da Vinci Code.webp
+      The Lost Symbol:
+        file_poster: config/assets/audiobooks/Brown, Dan/The Lost Symbol.webp
+  Daniel Suarez:
+    albums:
+      Daemon:
+        file_poster: config/assets/audiobooks/Suarez, Daniel/Daemon.webp
+      Freedom (TM):
+        file_poster: config/assets/audiobooks/Suarez, Daniel/Freedom.webp
+  Ernest Cline:
+    albums:
+      Ready Player One:
+        file_poster: config/assets/audiobooks/Cline, Ernest/Ready Player One.webp
+      Ready Player Two:
+        file_poster: config/assets/audiobooks/Cline, Ernest/Ready Player Two.webp
+  Frank Herbert:
+    albums:
+      'Chapterhouse: Dune':
+        file_poster: config/assets/audiobooks/Herbert, Frank/Chapterhouse Dune.webp
+      Children of Dune:
+        file_poster: config/assets/audiobooks/Herbert, Frank/Children of Dune.webp
+      Dune:
+        file_poster: config/assets/audiobooks/Herbert, Frank/Dune.webp
+      Dune Messiah:
+        file_poster: config/assets/audiobooks/Herbert, Frank/Dune Messiah.webp
+      God Emperor of Dune:
+        file_poster: config/assets/audiobooks/Herbert, Frank/God Emperor of Dune.webp
+      Heretics of Dune:
+        file_poster: config/assets/audiobooks/Herbert, Frank/Neretics of Dune.webp
+  J.D. Barker:
+    albums:
+      The Fifth to Die:
+        file_poster: config/assets/audiobooks/Barker, J. D/The Fifth to Die.webp
+      The Fourth Monkey:
+        file_poster: config/assets/audiobooks/Barker, J. D/The Fourth Monkey.webp
+      The Sixth Wicked Child:
+        file_poster: config/assets/audiobooks/Barker, J. D/The Sixth Wicked Child.webp
+  J. R. R. Tolkien:
+    albums:
+      'The Fellowship of the Ring: Book One in The Lord of the Rings Trilogy':
+        file_poster: config/assets/audiobooks/Tolkien, J. R. R/The Fellowship of the Ring.webp
+      'The Return of the King: Book Three in the Lord of the Rings Trilogy':
+        file_poster: config/assets/audiobooks/Tolkien, J. R. R/The Two Towers.webp
+      'The Two Towers: Book Two in the Lord of the Rings Trilogy':
+        file_poster: config/assets/audiobooks/Tolkien, J. R. R/The Return of the King.webp
+  James Dashner:
+    albums:
+      'The Death Cure: Maze Runner, Book 3':
+        file_poster: config/assets/audiobooks/Dashner, James/The Death Cure.webp
+      'The Fever Code: Maze Runner, Book 5':
+        file_poster: config/assets/audiobooks/Dashner, James/The Fever Code.webp
+      'The Kill Order: Maze Runner, Book 4':
+        file_poster: config/assets/audiobooks/Dashner, James/The Kill Order.webp
+      'The Maze Runner: Maze Runner, Book 1':
+        file_poster: config/assets/audiobooks/Dashner, James/The Maze Runner.webp
+      'The Scorch Trials: Maze Runner, Book 2':
+        file_poster: config/assets/audiobooks/Dashner, James/The Scorch Trials.webp
+  James S. A. Corey:
+    albums:
+      'Abaddon''s Gate: The Expanse, Book 3':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Abaddons Gate.webp
+      # 'Auberon: The Expanse, Book 7.5':
+      #   file_poster: config/assets/audiobooks/Corey, James S. A/.webp
+      'Babylon''s Ashes: The Expanse, Book 6':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Babylons Ashes.webp
+      'Caliban''s War: The Expanse, Book 2':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Calibans War.webp
+      'Cibola Burn: The Expanse, Book 4':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Cibola Burn.webp
+      # 'Gods of Risk: The Expanse, Book 2.5':
+      #   file_poster: config/assets/audiobooks/Corey, James S. A/.webp
+      'Leviathan Wakes:: The Expanse, Book 1':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Leviathan Wakes.webp
+      'Nemesis Games: The Expanse, Book 5':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Nemesis Games.webp
+      'Persepolis Rising: The Expanse, Book 7':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Persepolis Rising.webp
+      # 'Strange Dogs: The Expanse, Book 6.5':
+      #   file_poster: config/assets/audiobooks/Corey, James S. A/.webp
+      # 'The Churn: The Expanse, Book 3.5':
+      #   file_poster: config/assets/audiobooks/Corey, James S. A/.webp
+      # 'The Vital Abyss: The Expanse, Book 5.5':
+      #   file_poster: config/assets/audiobooks/Corey, James S. A/.webp
+      'Tiamat''s Wrath: The Expanse, Book 8':
+        file_poster: config/assets/audiobooks/Corey, James S. A/Tiamats Wrath.webp
+  Lee Child:
+    albums:
+      '61 Hours: Jack Reacher, Book 14':
+        file_poster: config/assets/audiobooks/Child, Lee/61 Hours Jack Reacher, Book 14.webp
+      'A Wanted Man: Jack Reacher, Book 17':
+        file_poster: config/assets/audiobooks/Child, Lee/A Wanted Man Jack Reacher, Book 17.webp
+      'Bad Luck and Trouble: Jack Reacher, Book 11':
+        file_poster: config/assets/audiobooks/Child, Lee/Bad Luck and Trouble Jack Reacher, Book 11.webp
+      'Better Off Dead: Jack Reacher, Book 26':
+        file_poster: config/assets/audiobooks/Child, Lee/Better Off Dead Jack Reacher, Book 26.webp
+      'Blue Moon: Jack Reacher, Book 24':
+        file_poster: config/assets/audiobooks/Child, Lee/Blue Moon Jack Reacher, Book 24.webp
+      'Deep Down: Jack Reacher, Book 16.5':
+        file_poster: config/assets/audiobooks/Child, Lee/Deep Down Jack Reacher, Book 16.5.webp
+      'Die Trying: Jack Reacher, Book 2':
+        file_poster: config/assets/audiobooks/Child, Lee/Die Trying Jack Reacher, Book 2.webp
+      'Echo Burning: Jack Reacher, Book 5':
+        file_poster: config/assets/audiobooks/Child, Lee/Echo Burning Jack Reacher, Book 5.webp
+      'Gone Tomorrow: Jack Reacher, Book 13':
+        file_poster: config/assets/audiobooks/Child, Lee/Gone Tomorrow Jack Reacher, Book 13.webp
+      High Heat A Jack Reacher Novella:
+        file_poster: config/assets/audiobooks/Child, Lee/High Heat A Jack Reacher Novella.webp
+      'James Penney''s: Jack Reacher, Book 13':
+        file_poster: config/assets/audiobooks/Child, Lee/James Penney's Jack Reacher, Book 13.webp
+      'Killing Floor: Jack Reacher, Book 1':
+        file_poster: config/assets/audiobooks/Child, Lee/Killing Floor Jack Reacher, Book 1.webp
+      'Make Me: Jack Reacher, Book 20':
+        file_poster: config/assets/audiobooks/Child, Lee/Make Me Jack Reacher, Book 20.webp
+      'Night School: Jack Reacher, Book 21':
+        file_poster: config/assets/audiobooks/Child, Lee/Night School Jack Reacher, Book 21.webp
+      'No Middle Name: The Complete Collected Jack Reacher Stories':
+        file_poster: config/assets/audiobooks/Child, Lee/No Middle Name The Complete Collected Jack Reacher Stories.webp
+      'No Plan B: Jack Reacher, Book 27':
+        file_poster: config/assets/audiobooks/Child, Lee/No Plan B Jack Reacher, Book 27.webp
+      'Not a Drill: Jack Reacher, Book 18.5':
+        file_poster: config/assets/audiobooks/Child, Lee/Not a Drill Jack Reacher, Book 18.5.webp
+      'Nothing to Lose: Jack Reacher, Book 12':
+        file_poster: config/assets/audiobooks/Child, Lee/Nothing to Lose Jack Reacher, Book 12.webp
+      'One Shot: Jack Reacher, Book 9':
+        file_poster: config/assets/audiobooks/Child, Lee/One Shot Jack Reacher, Book 9.webp
+      'Past Tense: Jack Reacher, Book 23':
+        file_poster: config/assets/audiobooks/Child, Lee/Past Tense Jack Reacher, Book 23.webp
+      'Personal: Jack Reacher, Book 19':
+        file_poster: config/assets/audiobooks/Child, Lee/Personal Jack Reacher, Book 19.webp
+      'Persuader: Jack Reacher, Book 7':
+        file_poster: config/assets/audiobooks/Child, Lee/Persuader Jack Reacher, Book 7.webp
+      'Second Son: Jack Reacher, Book 15.5':
+        file_poster: config/assets/audiobooks/Child, Lee/Second Son Jack Reacher, Book 15.5.webp
+      'Small Wars: Jack Reacher, Book 19.5':
+        file_poster: config/assets/audiobooks/Child, Lee/Small Wars Jack Reacher, Book 19.5.webp
+      'The Affair: Jack Reacher, Book 16':
+        file_poster: config/assets/audiobooks/Child, Lee/The Affair Jack Reacher, Book 16.webp
+      'The Christmas Scorpion: Jack Reacher, Book 22.5':
+        file_poster: config/assets/audiobooks/Child, Lee/The Christmas Scorpion Jack Reacher, Book 22.5.webp
+      'The Enemy: Jack Reacher, Book 8':
+        file_poster: config/assets/audiobooks/Child, Lee/The Enemy Jack Reacher, Book 8.webp
+      'The Fourth Man: Jack Reacher, Book 23.5':
+        file_poster: config/assets/audiobooks/Child, Lee/The Fourth Man Jack Reacher, Book 23.5.webp
+      'The Hard Way: Jack Reacher, Book 10':
+        file_poster: config/assets/audiobooks/Child, Lee/The Hard Way Jack Reacher, Book 10.webp
+      'The Midnight Line: Jack Reacher, Book 22':
+        file_poster: config/assets/audiobooks/Child, Lee/The Midnight Line Jack Reacher, Book 22.webp
+      'The Sentinel: Jack Reacher, Book 25':
+        file_poster: config/assets/audiobooks/Child, Lee/The Sentinel Jack Reacher, Book 25.webp
+      'The Visitor: Jack Reacher, Book 4':
+        file_poster: config/assets/audiobooks/Child, Lee/The Visitor Jack Reacher, Book 4.webp
+      'Tripwire: Jack Reacher, Book 3':
+        file_poster: config/assets/audiobooks/Child, Lee/Tripwire Jack Reacher, Book 3.webp
+      'Without Fail: Jack Reacher, Book 6':
+        file_poster: config/assets/audiobooks/Child, Lee/Without Fail Jack Reacher, Book 6.webp
+      'Worth Dying For: Jack Reacher, Book 15':
+        file_poster: config/assets/audiobooks/Child, Lee/Worth Dying For Jack Reacher, Book 15.webp
+  Max Brallier:
+    albums:
+      'June''s Wild Flight: The Last Kids on Earth, Book 5.5':
+        file_poster: config/assets/audiobooks/Brallier, Max/Junes Wild Flight.webp
+      'The Last Kids on Earth and the Cosmic Beyond☺: The Last Kids on Earth, Book 4':
+        file_poster: config/assets/audiobooks/Brallier, Max/Cosmic Beyond.webp
+      'The Last Kids on Earth and the Midnight Blade: The Last Kids on Earth, Book 5':
+        file_poster: config/assets/audiobooks/Brallier, Max/Midnight Blade.webp
+      'The Last Kids on Earth and the Nightmare King: The Last Kids on Earth, Book 3':
+        file_poster: config/assets/audiobooks/Brallier, Max/Nightmare King.webp
+      'The Last Kids on Earth and the Skeleton Road: The Last Kids on Earth, Book 6':
+        file_poster: config/assets/audiobooks/Brallier, Max/Skeleton Road.webp
+      'The Last Kids on Earth and the Zombie Parade: The Last Kids on Earth, Book 2':
+        file_poster: config/assets/audiobooks/Brallier, Max/Zombie Parade.webp
+      'The Last Kids on Earth: The Last Kids on Earth, Book 1':
+        file_poster: config/assets/audiobooks/Brallier, Max/The Last Kids on Earth.webp
+      # 'The Last Kids on Earth and the  : The Last Kids on Earth, Book 7'
+      # 'The Last Kids on Earth and the  : The Last Kids on Earth, Book 8'
+  Michael Crichton:
+    albums:
+      Jurassic Park:
+        file_poster: config/assets/audiobooks/Crichton, Michael/Jurassic Park.webp
+      The Lost World:
+        file_poster: config/assets/audiobooks/Crichton, Michael/Jurassic Park The Lost World.webp

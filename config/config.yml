@@ -1,0 +1,157 @@
+libraries:
+  Audiobooks:
+    library_type: music
+    metadata_path:
+    - file: config/_audiobooks/audiobooks_metadata.yml
+    - file: config/_audiobooks/audiobooks_collections.yml
+    operations:
+      asset_folders: true
+      assets_for_all: true
+    report_path: config/__reports/audiobooks_report.yml
+    settings:
+      asset_directory: config/assets/audiobooks
+      show_missing_assets: false
+  Films:
+    library_type: movie
+    metadata_path:
+      - file: config/_films/films_metadata.yml
+      - file: config/_films/films_collections.yml
+    operations:
+      asset_folders: true
+      assets_for_all: true
+      content_rating_mapper:
+        PG/15: 15
+        PG/18: 18
+      mass_content_rating_update: mdb_commonsense
+    overlay_path:
+      - remove_overlays: true
+      - file: config/_films/overlays.yml
+    report_path: config/__reports/films_report.yml
+    settings:
+      asset_directory: config/assets/movies
+      show_missing_assets: false
+  TV:
+    library_type: show
+    metadata_path:
+      - file: config/_tv/tv_metadata.yml
+      - file: config/_tv/tv_collections.yml
+    operations:
+      asset_folders: true
+      assets_for_all: true
+    report_path: config/__reports/tv_report.yml
+    settings:
+      asset_directory: config/assets/tv
+      show_missing_assets: false
+mdblist:
+  apikey: 7g6o36zyoouz04iwyu2n5vlma
+  cache_expiration: 60
+notifiarr:
+  apikey: dc613a2c-3662-41c6-a539-89f9c9cefb47
+playlist_files:
+- file: config/playlists.yml
+plex:
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+  timeout: 60
+  token: AxQVEHZaTdZF3DKn_eio
+  url: http://192.168.1.13:32400
+radarr:
+  add_existing: false
+  add_missing: true
+  availability: released
+  monitor: true
+  plex_path:
+  quality_profile: HD-1080p
+  radarr_path:
+  root_folder_path: /movies
+  search: false
+  tag: pmm
+  token: 8e952989747a4ed9b254731f3846c30b
+  upgrade_existing: false
+  url: http://192.168.1.13:10001
+  version: v3
+settings:
+  asset_depth: 0
+  asset_directory:
+  asset_folders: true
+  cache: true
+  cache_expiration: 60
+  check_nightly: false
+  create_asset_folders: false
+  custom_repo:
+  default_collection_order:
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  ignore_ids: 9771, 964943, 980017, 996361, 877188, 979160, 836529, 979166, 662151,
+    974183, 945682, 938933, 937999, 860331, 860689, 885687, 9965, 441829, 413279,
+    505945, 981611, 647375, 259910, 119569, 76535, 253980, 211387, 754926, 919255,
+    347114, 347115, 347112, 646063, 758025, 265065, 894158, 1010818, 1010819, 1010820, 1010821,
+    1010823, 1001912, 1002488, 1026208, 1026208, 220141, 82870, 236061, 78260, 193821, 73750, 1015595, 76122, 1015595, 1010830, 1038729, 1035066, 
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  minimum_items: 2
+  missing_only_released: false
+  only_filter_missing: false
+  playlist_report: true
+  playlist_sync_to_users: all
+  prioritize_assets: true
+  run_again_delay: 2
+  save_missing: true
+  show_asset_not_needed: false
+  show_filtered: false
+  show_missing: true
+  show_missing_assets: true
+  show_missing_episode_assets: false
+  show_missing_season_assets: true
+  show_options: true
+  show_unconfigured: true
+  show_unmanaged: true
+  sync_mode: append
+  tvdb_language: default
+  verify_ssl: true
+sonarr:
+  add_existing: false
+  add_missing: true
+  cutoff_search: false
+  language_profile: English
+  monitor: all
+  plex_path:
+  quality_profile: HD-1080p
+  root_folder_path: /tv4
+  search: false
+  season_folder: true
+  series_type: standard
+  sonarr_path:
+  tag: delay, 265, pmm
+  token: d9ed70408d5e405f8d0911b7838ba2f8
+  upgrade_existing: false
+  url: http://192.168.1.13:10000
+  version: v3
+tautulli:
+  apikey: 66ab2711915b4aefb15e72ab535232cb
+  url: http://192.168.1.13:8181
+tmdb:
+  apikey: 652cc02cb8419954a82a8aad65645713
+  cache_expiration: 60
+  language: en
+  region:
+trakt:
+  authorization:
+    access_token: 06e7504ec3c772addb5c1073a32eb21d0672ea7d3ec8bd7e492f4d24a3f81f50
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: d92eada442034a2c861b50ccfc4ef0c5f97d0e8574ae1d09c9a11f34419aff7b
+    scope: public
+    created_at: 1668900880
+  client_id: a96b9afc8c7dd65652e58214ce79d6ba2d834e524a0b029bdefe6c4d8c1c4263
+  client_secret: b7110b8e119fa6b2e40dd9ab76d85b090cbe617404453f3381d7d4e521580f18
+  pin:
+webhooks:
+  changes: notifiarr
+  error: notifiarr
+  run_end: notifiarr
+  run_start: notifiarr
+  version: notifiarr

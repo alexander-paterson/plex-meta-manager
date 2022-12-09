@@ -1,0 +1,201 @@
+---
+metadata:
+  A Good Day to Die Hard:
+    sort_title: Die Hard 2013
+  A Quiet Place:
+    sort_title: Quiet Place 2018-04-03
+  A Quiet Place Part II:
+    sort_title: Quiet Place 2021-05-20
+  'AVP: Alien vs. Predator':
+    sort_title: AVP 2004-08-12
+  'AVPR: Aliens vs Predator - Requiem':
+    sort_title: AVP 2007-12-25
+  Addams Family Values:
+    label: Kids
+    sort_title: Addams Family 1993-11-19
+  Alien:
+    sort_title: Alien 1979-05-28
+  Alien Resurrection:
+    sort_title: Alien 1997-11-12
+  'Alien: Covenant':
+    sort_title: Alien 2017-05-09
+  Aliens:
+    sort_title: Alien 1986-07-18
+  Alien³:
+    sort_title: Alien 1992-05-22
+  Ant-Man:
+    sort_title: Ant-Man 2015
+  Ant-Man and the Wasp:
+    sort_title: Ant-Man 2018
+  'Apollo 10 1/2: A Space Age Adventure':
+    label: Kids
+  Army of Thieves:
+    sort_title: Army of 2021-10-28
+  Avengers Assemble:
+    sort_title: Avengers 2012
+  'Avengers: Age of Ultron':
+    sort_title: Avengers 2015
+  'Avengers: Endgame':
+    sort_title: Avengers 2019
+  'Avengers: Infinity War':
+    sort_title: Avengers 2018
+  'Batman and Superman: Battle of the Super Sons':
+    sort_title: Batman Animated 2022-10-18
+  'Batman: Mask of the Phantasm':
+    sort_title: Batman Animated 1993-12-25
+  Black Panther:
+    sort_title: Black Panther 2018
+  'Bottom 2001: An Arse Oddity':
+    sort_title: Bottom 2001
+  Bottom Live:
+    sort_title: Bottom 1993
+  'Bottom Live 2003: Weapons Grade Y-Fronts Tour':
+    sort_title: Bottom 2003
+  'Bottom Live 3: Hooligan''s Island':
+    sort_title: Bottom 1997
+  'Bottom Live: The Big Number 2 Tour':
+    sort_title: Bottom 1995
+  Brewster's Millions:
+    label: Kids
+  'Captain America: Civil War':
+    sort_title: Captain America 2016
+  'Captain America: The First Avenger':
+    sort_title: Captain America 2011
+  'Captain America: The Winter Soldier':
+    sort_title: Captain America 2014
+  Captain Marvel:
+    sort_title: Captain Marvel 2019
+  Dawn of the Planet of the Apes:
+    sort_title: Planet of the Apes 2014-07-09
+  Die Hard:
+    sort_title: Die Hard 1988
+  Die Hard 2:
+    sort_title: Die Hard 1990
+  Die Hard 4.0:
+    sort_title: Die Hard 2007
+  'Die Hard: With a Vengeance':
+    sort_title: Die Hard 1995
+  Doctor Strange:
+    sort_title: Doctor Strange 2016
+  Doctor Strange in the Multiverse of Madness:
+    sort_title: Doctor Strange 2022
+  Guardians of the Galaxy:
+    sort_title: Guardians of the Galaxy 2014
+  'Guardians of the Galaxy: Vol. 2':
+    sort_title: Guardians of the Galaxy 2017
+  Iron Man:
+    sort_title: Iron Man 2008
+  Iron Man 2:
+    sort_title: Iron Man 2010
+  Iron Man 3:
+    sort_title: Iron Man 2013
+  Jackass 2.5:
+    sort_title: Jackass 2007-12-19
+  Jackass 3.5:
+    sort_title: Jackass 2011-04-01
+  Jackass 3D:
+    sort_title: Jackass 2010-10-15
+  Jackass 4.5:
+    sort_title: Jackass 2022-05-20
+  Jackass Forever:
+    sort_title: Jackass 2022-02-03
+  Jackass Number Two:
+    sort_title: Jackass 2006-09-22
+  'Jackass: The Movie':
+    sort_title: Jackass 2002-10-21
+  Jigsaw:
+    sort_title: Saw 2017
+  'Jimmy Carr: His Dark Material':
+    sort_title: Jimmy Carr 2021-12-24
+  Man Behind The Sun:
+    label: adult
+  Pinocchio1:
+    label: Kids
+    sort_title: Pinocchio 2022-09-08
+    title: Pinocchio
+    year: 2022
+  Prey:
+    sort_title: Predator 2022-08-05
+  Project Almanac:
+    label: Kids
+  Rise of the Planet of the Apes:
+    sort_title: Planet of the Apes 2011-08-03
+  Saw:
+    sort_title: Saw 2004
+  Saw 3D:
+    sort_title: Saw 2010
+  Saw II:
+    sort_title: Saw 2005
+  Saw III:
+    sort_title: Saw 2006
+  Saw IV:
+    sort_title: Saw 2007
+  Saw V:
+    sort_title: Saw 2008
+  Saw VI:
+    sort_title: Saw 2009
+  'South Park: Post Covid':
+    sort_title: South Park 2021-11-25
+  'South Park: Post Covid - The Return of Covid':
+    sort_title: South Park 2021-12-16
+  'South Park: The Streaming Wars':
+    sort_title: South Park 2022-06-01
+  'South Park: The Streaming Wars Part 2':
+    sort_title: South Park 2022-07-13
+  'Spider-Man: Far from Home':
+    sort_title: Spider-Man 2019
+  'Spider-Man: Homecoming':
+    sort_title: Spider-Man 2017
+  'Spider-Man: No Way Home':
+    sort_title: Spider-Man 2021
+  Super Pets:
+    label: Kids
+  The Addams Family:
+    label: Kids
+    sort_title: Addams Family 1991-11-22
+  The Adventures of Baron Munchausen:
+    label: Kids
+  The Batman:
+    sort_title: Batman 2022-03-01
+  The Blair Witch Project:
+    sort_title: Blair Witch Project 1999-07-28
+  The Boxtrolls:
+    label: Kids
+  The Butterfly Effect:
+    sort_title: Butterfly Effect 2004-01-22
+  The Inside Outtakes:
+    sort_title: Bo Burnham 2022-05-30
+  'The Lord of the Rings: The Fellowship of the Ring':
+    sort_title: Lord of the Rings 2001-12-19
+  'The Lord of the Rings: The Return of the King':
+    sort_title: Lord of the Rings 2003-12-17
+  'The Lord of the Rings: The Two Towers':
+    sort_title: Lord of the Rings 2002-12-18
+  The Munsters:
+    label: Kids
+  The Raid:
+    sort_title: Raid 2012-03-22
+  The Raid 2:
+    sort_title: Raid 2014-03-27
+  Thing1:
+    sort_title: Thing 1982-06-25
+    title: The Thing
+    year: 1982
+  Thing2:
+    sort_title: Thing 2011-10-14
+    title: The Thing
+    year: 2011
+  Thor:
+    sort_title: Thor 2011
+  'Thor: Love and Thunder':
+    sort_title: Thor 2022-07-06
+  'Thor: Ragnarok':
+    sort_title: Thor 2017
+  'Thor: The Dark World':
+    sort_title: Thor 2013
+  Time Bandits:
+    label: Kids
+  'Top Gun: Maverick':
+    sort_title: Top Gun 2022-05-21
+  War for the Planet of the Apes:
+    sort_title: Planet of the Apes 2017-07-11

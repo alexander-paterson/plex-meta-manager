@@ -1,0 +1,10 @@
+logs
+config.cache
+assets
+__reports
+custom-cont-init.d
+custom-services.d
+http_cache.sqlite
+UUID
+overlays
+config.yml.template

@@ -1,0 +1,44 @@
+---
+external_templates:
+  - file: config/templates.yml
+playlists:
+  15 Horror Movies That Went Too Far:
+    summary: hhttps://www.slashfilm.com/938907/horror-movies-that-went-too-far/
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/15-horror-movies-that-went-too-far
+  15 alien abduction movies that paved the way for nope:
+    summary: https://lifehacker.com/15-alien-abduction-movies-that-paved-the-way-for-nope-1849218944/slides/17
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/15-alien-abduction-movies-that-paved-the-way-for-nope
+  Arrowverse (Timeline Order):
+    summary: The Arrowverse is an American superhero media franchise and a shared universe that is centered on various interconnected television series based on DC Comics superhero characters, primarily airing on The CW as well as web series on CW Seed.
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/donxy/lists/arrowverse
+  Marvel Cinematic Universe (Timeline Order):
+    summary: The Marvel Cinematic Universe (MCU) is a collection of movies and television series that tell a singular narrative related to Marvel characters, settings and stories. The MCU is a product from Disney and Marvel that brings us heroes from Black Panther and Doctor Strange to Spider-Man and Iron Man.
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+  Marvel Defenders Saga:
+    summary: Marvel's Defenders Saga in chronoligical order
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/marvel-defenders-saga
+  Star Trek (Timeline Order):
+    summary: Few film franchises have lasted as long as Star Trek. Through five decades and three different crews, the Star Trek films have saved more than a few worlds (and the whales), traveling through time more than once to do it. With them being set in so many different time periods, their actual chronological order might get a little confusing. No need to fret as this is the proper order… in linear time, anyway. On a quantum level is a whole other thing.
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/pedrohcramos/lists/star-trek-timeline
+  The most underrated movies of 2022:
+    summary: https://www.looper.com/847253/most-underrated-movies-2022/
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/the-most-underrated-movies-of-2022
+  10 Horror Remakes Better Than The Originals, According To Reddit:
+    summary: https://screenrant.com/reddit-horror-movie-remakes-better-than-originals/#Echobox=1661978591
+    template:
+      - name: Playlist
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/10-horror-remakes-better-than-the-originals-according-to-reddit

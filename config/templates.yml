@@ -1,0 +1,26 @@
+---
+templates:
+  Adult:
+    item_label: Adult
+    label: Adult
+  Audiobooks:
+    builder_level: album
+    smart_filter:
+      all:
+        album_mood: 'Series: <<series_name>>'
+      sort_by: title.asc
+  Kids:
+    item_label: Kids
+    label: Kids
+  Playlist:
+    libraries: Films, TV
+    sync_to_users: null
+  Stand Up:
+    plex_search:
+      all:
+        genre: Stand Up
+        writer: <<collection_name>>
+    tmdb_profile: <<profile>>
+  TV:
+    collection_mode: hide
+    visible_library: false

@@ -1,0 +1,320 @@
+---
+collections:
+  A Delta-v Novel:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  A Lincoln Lawyer Novel:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  A Song of Ice and Fire:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  A Temperance Brennan Novel:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  After the Apocalypse:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Alien:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Alien Invasion (Platt/Truant):
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+    title: Alien Invasion
+  'Alien Trilogy: Novelizations':
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  'Alien: The Audible Original Dramas':
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  'Alien™: The Novelizations':
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  American Gods:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Annihilation:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Bird Box:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Bridgertons:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Center Of The Earth:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  DCI Logan Crime Thrillers:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Daemon:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Detective Sam Porter:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Dexter:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Diary of a Wimpy Kid:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Discworld:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  'Discworld: Death':
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  'Discworld: For Kids':
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Dune:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Firefly Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Flu:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Frankenstein:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Hannibal Lecter Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Harry Potter:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Inspector Rebus:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Jack Reacher:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Jack Stapleton & Laurie Montgomery:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Jeff Aiken:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Jurassic Park:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Mark Renton:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Maze Runner:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Millennium Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Minecraft:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Minecraft Dungeons:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Nick Stone:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Pacific Rim [Irvine & Keyes]:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+    title: Pacific Rim
+  Planet of the Apes:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Predator:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Ready Player One:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Reckoners:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Riley Wolfe:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Robert Hunter:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Robert Langdon:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Slobberknocker:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Spider-Man:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Spy School:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Andromeda Strain:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Boys:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Expanse:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Far End:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Gears of War Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Last Kids on Earth:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Lord of the Rings:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Rage War:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Serial Killer's Family:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Shining:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Strain Trilogy:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Three-Body Problem Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Watchers Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Will Trent Series:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Witcher Saga:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  The Worlds Worst Children:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Trainspotting:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  White Flag of the Dead:
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Wizarding World:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  Wolverine:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  X-Men:
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>
+  'X-Men: Mutant Empire':
+    item_label: Kids
+    label: Kids
+    template:
+      name: Audiobooks
+      series_name: <<collection_name>>

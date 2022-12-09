@@ -1,0 +1,142 @@
+---
+collections:
+  A Quiet Place Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/521226
+  After Porn Ends Collection:
+    template:
+      name: Adult
+    tmdb_collection: https://www.themoviedb.org/collection/508128
+  Alien Collection:
+    sort_title: Alien 1979
+    tmdb_collection: https://www.themoviedb.org/collection/8091
+  Alien Universe:
+    sort_title: Alien 0000
+    tmdb_collection:
+      - https://www.themoviedb.org/collection/8091
+      - https://www.themoviedb.org/collection/135416
+      - https://www.themoviedb.org/collection/115762
+  Alien Vs Predator Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/115762
+  Ant-Man Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/422834
+  Army of the Dead Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/809185
+  Avengers Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/86311
+  'Batman: The Long Halloween Collection':
+    sort_title: Batman Animated 2021-06-22
+    tmdb_collection: https://www.themoviedb.org/collection/785583
+  Big Bottom Boxset:
+    tmdb_collection: https://www.themoviedb.org/collection/268014
+  Black Panther Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/529892
+  Captain America Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/131295
+  Captain Marvel Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/623911
+  Clerks Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/182813
+  Die Hard Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/1570☺
+  Doctor Strange Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/618529
+  Enola Holmes Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/829314
+  Force Show:
+    collection_mode: show_items
+    sort_title: zzzzzz Force Show
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/force-show
+  Guardians of the Galaxy Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/284433
+  Hocus Pocus Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/751156
+  Iron Man Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/131292
+  Jackass Collection:
+    sort_title: Jackass 1
+    tmdb_collection: https://www.themoviedb.org/collection/17178
+  Jackass Universe:
+    sort_title: Jackass 0
+    tmdb_collection:
+      - https://www.themoviedb.org/collection/17178
+      - https://www.themoviedb.org/collection/989621
+    tmdb_movie: https://www.themoviedb.org/movie/254231-a-tribute-to-ryan-dunn
+  John Wick Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/404609
+  Kill Bill Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/2883
+  Marvel:
+    sort_title: Marvel 0000
+    template:
+      name: Kids
+    tmdb_keyword: https://www.themoviedb.org/keyword/180547
+  Planet of the Apes (Reboot) Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/173710
+  Predator Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/399
+  Prometheus Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/135416
+  Saw Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/656
+  Spider-Man (Avengers) Collection:
+    sort_title: Spider-Man 2017
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/531241
+  Terrifier Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/727761
+  The Butterfly Effect Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/52749
+  The Hannibal Lecter Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/9743
+  The Infinity Saga Collection:
+    sort_title: Marvel 2008
+    template:
+      name: Kids
+    trakt_list_details: https://trakt.tv/users/unabatedshagie/lists/the-infinity-saga
+  The Lord of the Rings Collection:
+    label: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/119
+  The Multiverse Saga Collection:
+    sort_title: Marvel 2021
+    template:
+      name: Kids
+    trakt_list_details: https://trakt.tv/users/aschillingchi/lists/marvel-multiverse-saga
+  The Raid Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/257960
+  The Thing Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/479888
+  Thor Collection:
+    template:
+      name: Kids
+    tmdb_collection: https://www.themoviedb.org/collection/131296
+  Top Gun Collection:
+    tmdb_collection: https://www.themoviedb.org/collection/531330
+  Trakt Watchlist:
+    collection_order: custom
+    sort_title: '**Trakt'
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/unabatedshagie/watchlist
+external_templates:
+  - file: config/templates.yml

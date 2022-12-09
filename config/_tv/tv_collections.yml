@@ -1,0 +1,139 @@
+---
+collections:
+  Arrowverse:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/arrowverse
+  Avatar Universe:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/246-avatar-the-last-airbender
+      - https://www.themoviedb.org/tv/33880-the-legend-of-korra
+  Batman:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/batman?sort=rank,asc
+  Borat MovieFilm:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/126326-borat-s-american-lockdown-debunking-borat
+  Breaking Bad:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/1396-breaking-bad
+      - https://www.themoviedb.org/tv/60059-better-call-saul
+  Child's Play:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/90462-chucky
+  Deadwood:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/1406-deadwood
+  Dirty Sanchez:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/1630-dirty-sanchez
+      - https://www.themoviedb.org/tv/31925-sanchez-get-high
+  Discworld:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/discworld
+  Downton Abbey:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/33907-downton-abbey
+  Jackass Universe:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/1795-jackass
+      - https://www.themoviedb.org/tv/20-wildboyz
+  Long Way Collection:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/2899-long-way-round
+      - https://www.themoviedb.org/tv/106871-long-way-up
+      - https://www.themoviedb.org/tv/1240-long-way-down
+  Louis Theroux:
+    template:
+      name: TV
+    tmdb_profile: https://www.themoviedb.org/person/219396-louis-theroux
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/louis-theroux-documentaries
+  Marvel:
+    sort_title: Marvel 0000
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/marvel-tv-shows
+  Pacific Rim Collection:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/112162
+  Scooby-Doo Animated Collection:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/926-scooby-doo-where-are-you
+      - https://www.themoviedb.org/tv/64228-be-cool-scooby-doo
+  South Park:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/2190-south-park
+  Spider-Man:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/spider-man
+  Star Trek:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/star-trek
+  Star Wars Universe:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/star-wars
+  The Sopranos:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/1398-the-sopranos
+  The Walking Dead:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/the-walking-dead
+  The X Files Collection:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/4087-the-x-files
+  This is England:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/42174-this-is-england-88
+  Trakt Watchlist:
+    collection_mode: show_items
+    collection_order: custom
+    sort_title: '**Trakt'
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/unabatedshagie/watchlist
+  Westworld:
+    template:
+      name: TV
+    tmdb_show: https://www.themoviedb.org/tv/63247-westworld
+  What We Do In The Shadows:
+    template:
+      name: TV
+    tmdb_show:
+      - https://www.themoviedb.org/tv/83631-what-we-do-in-the-shadows
+      - https://www.themoviedb.org/tv/80475-wellington-paranormal
+  Wrestling:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/wrestling?sort=rank,asc
+  X-Men Universe:
+    template:
+      name: TV
+    trakt_list: https://trakt.tv/users/unabatedshagie/lists/x-men-universe
+external_templates:
+  - file: config/templates.yml

@@ -1,0 +1,805 @@
+---
+# collections:
+#   A Nightmare on Elm Street Collection:
+#     sort_title: Nightmare on Elm Street 1984
+#     tmdb_collection: https://www.themoviedb.org/collection/8581
+#   A Quiet Place Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/521226
+#   Ace Ventura Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/3167
+#   Addams Family Collection:
+#     sort_title: Addams Family 1991
+#     tmdb_collection: https://www.themoviedb.org/collection/11716
+#   Alien Collection:
+#     sort_title: Alien 1979
+#     tmdb_collection: https://www.themoviedb.org/collection/8091
+#   Alien Universe:
+#     sort_title: Alien 0000
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/8091
+#       - https://www.themoviedb.org/collection/135416
+#       - https://www.themoviedb.org/collection/115762
+#   Analyze Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/110127
+#   Anchorman Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/93791
+#   Armour of God Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/146136
+#   Austin Powers Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/1006
+#   Back to the Future Universe:
+#     sort_title: Back to the Future 0000
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/105-back-to-the-future
+#       - https://www.themoviedb.org/movie/165-back-to-the-future-part-ii
+#       - https://www.themoviedb.org/movie/196-back-to-the-future-part-iii
+#       - https://www.themoviedb.org/movie/330127-back-in-time
+#       - https://www.themoviedb.org/movie/361999-outatime-saving-the-delorean-time-machine
+#   Bad Boys Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/14890
+#   Bad Santa Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/423173
+#   Batman:
+#     sort_title: Batman 0000
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/120794
+#       - https://www.themoviedb.org/collection/263
+#     tmdb_movie: https://www.themoviedb.org/movie/414906-the-batman
+#   Batman Collection:
+#     sort_title: Batman 1989
+#     tmdb_collection: https://www.themoviedb.org/collection/120794
+#   Batman Nolan:
+#     sort_title: Batman 2005
+#     tmdb_collection: https://www.themoviedb.org/collection/263
+#   "Batman: The Long Halloween Collection":
+#     sort_title: Batman Animated 2021
+#     tmdb_collection: https://www.themoviedb.org/collection/785583
+#   Bert Kreischer:
+#     tmdb_profile: 1187274-bert-kreischer
+#     tmdb_writer: 1187274-bert-kreischer
+#   Beverly Hills Cop Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/85861
+#   Bill Burr:
+#     tmdb_profile: 109708-bill-burr
+#     tmdb_writer: 109708-bill-burr
+#   Billy Connolly:
+#     template:
+#       name: Stand Up
+#       profile: 9188
+#   Blade Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/735
+#   Blade Runner Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/422837
+#   Bo Burnham:
+#     template:
+#       name: Stand Up
+#       profile: 115128
+#   "Bond: Brosnan":
+#     sort_title: James Bond 5
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/710-goldeneye
+#       - https://www.themoviedb.org/movie/714-tomorrow-never-dies
+#       - https://www.themoviedb.org/movie/36643-the-world-is-not-enough
+#       - https://www.themoviedb.org/movie/36669-die-another-day
+#   "Bond: Connery":
+#     sort_title: James Bond 1
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/646-dr-no
+#       - https://www.themoviedb.org/movie/657-from-russia-with-love
+#       - https://www.themoviedb.org/movie/658-goldfinger
+#       - https://www.themoviedb.org/movie/660-thunderball
+#       - https://www.themoviedb.org/movie/667-you-only-live-twice
+#       - https://www.themoviedb.org/movie/681-diamonds-are-forever
+#       - https://www.themoviedb.org/movie/36670-never-say-never-again
+#   "Bond: Craig":
+#     sort_title: James Bond 6
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/36557-casino-royale
+#       - https://www.themoviedb.org/movie/10764-quantum-of-solace
+#       - https://www.themoviedb.org/movie/37724-skyfall
+#       - https://www.themoviedb.org/movie/206647-spectre
+#       - https://www.themoviedb.org/movie/370172-no-time-to-die
+#   "Bond: Dalton":
+#     sort_title: James Bond 4
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/708-the-living-daylights
+#       - https://www.themoviedb.org/movie/709-licence-to-kill
+#   "Bond: Lazenby":
+#     sort_title: James Bond 2
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/668-on-her-majesty-s-secret-service
+#   "Bond: Moore":
+#     sort_title: James Bond 3
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/253-live-and-let-die
+#       - https://www.themoviedb.org/movie/682-the-man-with-the-golden-gun
+#       - https://www.themoviedb.org/movie/691-the-spy-who-loved-me
+#       - https://www.themoviedb.org/movie/698-moonraker
+#       - https://www.themoviedb.org/movie/699-for-your-eyes-only
+#       - https://www.themoviedb.org/movie/700-octopussy
+#       - https://www.themoviedb.org/movie/707-a-view-to-a-kill
+#   Borat MovieFilms:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/496-borat-cultural-learnings-of-america-for-make-benefit-glorious-nation-of-kazakhstan
+#       - https://www.themoviedb.org/movie/740985-borat-subsequent-moviefilm
+#   Cars Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/87118
+#   Child's Play Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/10455
+#   Clerks Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/182813
+#   Cloverfield Universe:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/7191-cloverfield
+#       - https://www.themoviedb.org/movie/333371-10-cloverfield-lane
+#       - https://www.themoviedb.org/movie/384521-the-cloverfield-paradox
+#       - https://www.themoviedb.org/movie/706643-untitled-cloverfield-sequel
+#   Coming to America Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/647077
+#   Cornetto Trilogy:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/747-shaun-of-the-dead
+#       - https://www.themoviedb.org/movie/4638-hot-fuzz
+#       - https://www.themoviedb.org/movie/107985-the-world-s-end
+#   Cube Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/432
+#   DC Animated Universe Collection:
+#     trakt_list: https://trakt.tv/users/unabatedshagie/lists/dc-animated-universe-collection
+#   Dave Chappelle:
+#     template:
+#       name: Stand Up
+#       profile: 4169-dave-chappelle
+#   David Blaine:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/135716-david-blaine-drowned-alive
+#       - https://www.themoviedb.org/movie/135717-david-blaine-what-is-magic
+#       - https://www.themoviedb.org/movie/460807-david-blaine-beautiful-struggle
+#       - https://www.themoviedb.org/movie/238466-david-blaine-real-or-magic
+#       - https://www.themoviedb.org/movie/52729-david-blaine-vertigo
+#       - https://www.themoviedb.org/movie/209794-david-blaine-frozen-in-time
+#     tmdb_profile: 79515-david-blaine
+#   Denis Leary:
+#     template:
+#       name: Stand Up
+#       profile: 5724
+#   Derren Brown:
+#     plex_search:
+#       all:
+#         writer: Derren Brown
+#     tmdb_profile: 91690-derren-brown
+#   Dirty Harry Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/10456
+#   Dirty Sanchez:
+#     collection_mode: hide
+#     tmdb_movie: https://www.themoviedb.org/movie/14891-dirty-sanchez-the-movie
+#     visible_library: false
+#   Eastrail 177:
+#     collection_mode: show_items
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/9741-unbreakable
+#       - https://www.themoviedb.org/movie/450465-glass
+#       - https://www.themoviedb.org/movie/381288-split
+#   Fast & Furious:
+#     sort_title: Fast and Furious 2001
+#     tmdb_collection: https://www.themoviedb.org/collection/9485
+#   Fast & Furious Universe:
+#     sort_title: Fast and Furious 0000
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/9485
+#       - https://www.themoviedb.org/collection/688042
+#   "Fast & Furious: Hobbs & Shaw":
+#     sort_title: Fast and Furious 2019
+#     tmdb_collection: https://www.themoviedb.org/collection/688042
+#   Finding Nemo Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/137697
+#   Force Show:
+#     collection_mode: show_items
+#     collection_order: custom
+#     sort_title: zzzzzz Force Show
+#     sync_mode: sync
+#     trakt_list: https://trakt.tv/users/unabatedshagie/lists/force-show
+#   Frankie Boyle:
+#     tmdb_profile: 82788-frankie-boyle
+#     tmdb_writer: 82788-frankie-boyle
+#   Ghost in the Shell:
+#     sort_title: Ghost in the Shell
+#     tmdb_collection: https://www.themoviedb.org/collection/23026
+#     tmdb_movie: https://www.themoviedb.org/movie/315837-ghost-in-the-shell
+#   Ghostbusters Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/2980
+#     tmdb_movie: https://www.themoviedb.org/movie/43074-ghostbusters
+#   Greg Davies:
+#     tmdb_profile: 1240641-greg-davies
+#     tmdb_writer: 1240641-greg-davies
+#   Hobbit Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/121938-the-hobbit-collection
+#   Jackass Collection:
+#     sort_title: Jackass 1
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/9012-jackass-the-movie
+#       - https://www.themoviedb.org/movie/12094-jackass-number-two
+#       - https://www.themoviedb.org/movie/14158-jackass-2-5
+#       - https://www.themoviedb.org/movie/265065-jackass-the-lost-tapes
+#       - https://www.themoviedb.org/movie/16290-jackass-3d
+#       - https://www.themoviedb.org/movie/65851-jackass-3-5
+#       - https://www.themoviedb.org/movie/656663-jackass
+#       - https://www.themoviedb.org/movie/828853-jackass-4-5
+#   "Jackass Presents: Bad Grandpa":
+#     sort_title: Jackass 2
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/208134-jackass-presents-bad-grandpa
+#       - https://www.themoviedb.org/movie/273641-jackass-presents-bad-grandpa-5
+#   Jackass Universe:
+#     sort_title: Jackass 0
+#     tmdb_collection: https://www.themoviedb.org/collection/17178
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/828853-jackass-4-5
+#       - https://www.themoviedb.org/movie/254231-a-tribute-to-ryan-dunn
+#   Jay and Silent Bob Collection:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/440762-jay-and-silent-bob-reboot
+#       - https://www.themoviedb.org/movie/2294-jay-and-silent-bob-strike-back
+#       - https://www.themoviedb.org/movie/179267-jay-and-silent-bob-s-super-groovy-cartoon-movie
+#   Jim Jefferies:
+#     template:
+#       name: Stand Up
+#       profile: 142516
+#   Jimmy Carr:
+#     template:
+#       name: Stand Up
+#       profile: 59077
+#   Joe Lycett:
+#     template:
+#       name: Stand Up
+#       profile: 1712175
+#   Joe Rogan:
+#     template:
+#       name: Stand Up
+#       profile: 91609
+#   John Mulaney:
+#     template:
+#       name: Stand Up
+#       profile: 933558
+#   John Wick Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/404609
+#   Jumanji Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/495527
+#   Jump Street Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/212562
+#   Kevin Bridges:
+#     template:
+#       name: Stand Up
+#       profile: 216042
+#   Kick-Ass Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/179892
+#   Kingsman Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/391860
+#   Kung Fu Panda Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/77816
+#   LEGO Collection:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Lego 0000
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/137106-the-lego-movie
+#       - https://www.themoviedb.org/movie/280217-the-lego-movie-2
+#       - https://www.themoviedb.org/movie/324849-the-lego-batman-movie
+#       - https://www.themoviedb.org/movie/274862-ninjago
+#   Lee Evans:
+#     template:
+#       name: Stand Up
+#       profile: 7400
+#   Living Dead (Remake):
+#     sort_title: Living Dead 1990
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/19185-night-of-the-living-dead
+#       - https://www.themoviedb.org/movie/924-dawn-of-the-dead
+#       - https://www.themoviedb.org/movie/13613-day-of-the-dead
+#       - https://www.themoviedb.org/movie/485415-day-of-the-dead-bloodline
+#   Living Dead (Romero):
+#     sort_title: Living Dead 1968
+#     tmdb_collection: https://www.themoviedb.org/collection/261590
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/13025-diary-of-the-dead
+#       - https://www.themoviedb.org/movie/29426-survival-of-the-dead
+#   Lord of the Rings:
+#     tmdb_collection: https://www.themoviedb.org/collection/119
+#   Louis C.K.:
+#     template:
+#       name: Stand Up
+#       profile: 52849
+#   Madagascar Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/14740
+#   Major League Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/97771
+#   Marvel:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Marvel 0000
+#     tmdb_keyword: https://www.themoviedb.org/keyword/180547
+#   "Marvel: Infinity Saga":
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Marvel 2008
+#     trakt_list_details: https://trakt.tv/users/unabatedshagie/lists/the-infinity-saga
+#   Men in Black Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/86055
+#   Michael McIntyre:
+#     template:
+#       name: Stand Up
+#       profile: 77297
+#   Middle Earth:
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/119
+#       - https://www.themoviedb.org/collection/121938-the-hobbit-collection
+#   "Mission: Impossible":
+#     tmdb_collection: https://www.themoviedb.org/collection/87359
+#   Monsters, Inc. Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/137696
+#   Monty Python Collection:
+#     collection_mode: hide
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/762-monty-python-and-the-holy-grail
+#       - https://www.themoviedb.org/movie/4543-the-meaning-of-life
+#       - https://www.themoviedb.org/movie/282268-monty-python-live-mostly
+#       - https://www.themoviedb.org/movie/583-life-of-brian
+#       - https://www.themoviedb.org/movie/9267-and-now-for-something-completely-different
+#     visible_library: false
+#   Mortal Kombat (Reboot) Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/931431
+#   Mortal Kombat Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/9818
+#   Naked Gun Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/37139
+#   National Lampoon's Vacation Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/108693
+#   National Treasure Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/52984
+#   Night at the Museum Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/85943
+#   Now You See Me Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/382685
+#   Nymphomaniac Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/258664
+#   Ocean's Collection:
+#     sort_title: Ocean's 2001
+#     tmdb_collection: https://www.themoviedb.org/collection/304
+#   Ong Bak Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/94589
+#   Pacific Rim Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/363369
+#   Peter Kay:
+#     template:
+#       name: Stand Up
+#       profile: 7318
+#   Pirates of the Caribbean Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/295
+#   Planet of the Apes (Original) Collection:
+#     sort_title: Planet of the Apes 1968
+#     tmdb_collection: https://www.themoviedb.org/collection/1709
+#   Planet of the Apes (Reboot) Collection:
+#     sort_title: Planet of the Apes 2011
+#     tmdb_collection: https://www.themoviedb.org/collection/173710
+#   Predator Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/399
+#   Project A Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/189159
+#   Puppet Master Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/107949
+#   Rambo Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/5039
+#   Resident Evil Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/17255
+#   Ricky Gervais:
+#     template:
+#       name: Stand Up
+#       profile: 17835
+#   Robin Williams:
+#     template:
+#       name: Stand Up
+#       profile: 2157
+#   Rocky Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/1575
+#   Roy 'Chubby' Brown:
+#     template:
+#       name: Stand Up
+#       profile: 482024
+#   Russell Howard:
+#     template:
+#       name: Stand Up
+#       profile: 94005
+#   Sarah Millican:
+#     template:
+#       name: Stand Up
+#       profile: 221882
+#   Saw Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/656
+#   Scooby-Doo Animated Collection:
+#     item_label: Kids
+#     label: Kids
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/721656-happy-halloween-scooby-doo
+#       - https://www.themoviedb.org/movie/682254-scooby-doo-in-king-arthur-s-court
+#       - https://www.themoviedb.org/movie/24615-aloha-scooby-doo
+#       - https://www.themoviedb.org/movie/37211-scooby-doo-and-the-reluctant-werewolf
+#       - https://www.themoviedb.org/movie/45752-scooby-doo-camp-scare
+#       - https://www.themoviedb.org/movie/258893-scooby-doo-wrestlemania-mystery
+#       - https://www.themoviedb.org/movie/32916-scooby-doo-abracadabra-doo
+#       - https://www.themoviedb.org/movie/284995-scooby-doo-frankencreepy
+#       - https://www.themoviedb.org/movie/13354-chill-out-scooby-doo
+#       - https://www.themoviedb.org/movie/13355-scooby-doo-pirates-ahoy
+#       - https://www.themoviedb.org/movie/20558-scooby-doo-in-where-s-my-mummy
+#       - https://www.themoviedb.org/movie/427564-scooby-doo-shaggy-s-showdown
+#       - https://www.themoviedb.org/movie/15601-scooby-doo-and-the-cyber-chase
+#       - https://www.themoviedb.org/movie/203696-scooby-doo-stage-fright
+#       - https://www.themoviedb.org/movie/13151-scooby-doo-on-zombie-island
+#       - https://www.themoviedb.org/movie/392536-lego-scooby-doo-haunted-hollywood
+#       - https://www.themoviedb.org/movie/287757-scooby-doo-meets-batman
+#       - https://www.themoviedb.org/movie/119321-big-top-scooby-doo
+#       - https://www.themoviedb.org/movie/615774-scooby-doo-return-to-zombie-island
+#       - https://www.themoviedb.org/movie/21956-scooby-doo-and-the-monster-of-mexico
+#       - https://www.themoviedb.org/movie/17681-scooby-doo-and-the-witch-s-ghost
+#       - https://www.themoviedb.org/movie/12903-scooby-doo-and-the-goblin-king
+#       - https://www.themoviedb.org/movie/16390-scooby-doo-and-the-samurai-sword
+#       - https://www.themoviedb.org/movie/67900-scooby-doo-legend-of-the-phantosaur
+#       - https://www.themoviedb.org/movie/13350-scooby-doo-and-the-ghoul-school
+#       - https://www.themoviedb.org/movie/12902-scooby-doo-and-the-loch-ness-monster
+#       - https://www.themoviedb.org/movie/484862-scooby-doo-batman-the-brave-and-the-bold
+#       - https://www.themoviedb.org/movie/20410-scooby-doo-and-the-alien-invaders
+#       - https://www.themoviedb.org/movie/302960-scooby-doo-moon-monster-madness
+#       - https://www.themoviedb.org/movie/533592-scooby-doo-and-the-gourmet-ghost
+#       - https://www.themoviedb.org/movie/81900-scooby-doo-music-of-the-vampire
+#       - https://www.themoviedb.org/movie/210769-scooby-doo-adventures-the-mystery-map
+#       - https://www.themoviedb.org/movie/13351-scooby-doo-in-arabian-nights
+#       - https://www.themoviedb.org/movie/30074-scooby-doo-and-the-legend-of-the-vampire
+#       - https://www.themoviedb.org/movie/316272-scooby-doo-and-the-pirates
+#       - https://www.themoviedb.org/movie/24787-scooby-doo-meets-the-boo-brothers
+#       - https://www.themoviedb.org/movie/151535-scooby-doo-mask-of-the-blue-falcon
+#       - https://www.themoviedb.org/movie/260825-scooby-doo-winter-wonderdog
+#       - https://www.themoviedb.org/movie/560066-scooby-doo-and-the-curse-of-the-13th-ghost
+#   Scooby-Doo Collection:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Scooby Doo 2002
+#     tmdb_collection: https://www.themoviedb.org/collection/86860
+#   Sean Lock:
+#     plex_search:
+#       all:
+#         genre: Stand Up
+#         writer: Sean Lock
+#     tmdb_profile: 94013
+#   See No Evil Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/296872
+#   Sharknado Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/286023
+#   Sherlock Holmes Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/102322
+#   Short Circuit Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/86347
+#   Shrek Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/2150
+#   Sicario Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/496796
+#   Sin City Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/135179
+#   Sonic The Hedgehog Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/720879
+#   South Park:
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/913392
+#       - https://www.themoviedb.org/collection/993732
+#     tmdb_movie: https://www.themoviedb.org/movie/9473-south-park-bigger-longer-uncut
+#   South Park the Streaming Wars Collection:
+#     sort_title: South Park 2022
+#     tmdb_collection: https://www.themoviedb.org/collection/993732
+#   "South Park: Post COVID Collection":
+#     sort_title: South Park 2021
+#     tmdb_collection: https://www.themoviedb.org/collection/913392
+#   Space Jam Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/722961
+#   Spider-Man:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Spider-Man 0000
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/556
+#       - https://www.themoviedb.org/collection/125574
+#       - https://www.themoviedb.org/collection/531241
+#       - https://www.themoviedb.org/collection/573436
+#   Spider-Man Collection:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Spider-Man 2002
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/557-spider-man
+#       - https://www.themoviedb.org/movie/558-spider-man-2
+#       - https://www.themoviedb.org/movie/559-spider-man-3
+#   "Spider-Man: Spider-Verse":
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Spider-Man 2018
+#     tmdb_collection: https://www.themoviedb.org/collection/573436
+#   Star Trek:
+#     sort_title: Star Trek 0000
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/152-star-trek-the-motion-picture
+#       - https://www.themoviedb.org/movie/154-star-trek-ii-the-wrath-of-khan
+#       - https://www.themoviedb.org/movie/157-star-trek-iii-the-search-for-spock
+#       - https://www.themoviedb.org/movie/168-star-trek-iv-the-voyage-home
+#       - https://www.themoviedb.org/movie/172-star-trek-v-the-final-frontier
+#       - https://www.themoviedb.org/movie/174-star-trek-vi-the-undiscovered-country
+#       - https://www.themoviedb.org/movie/193-star-trek-generations
+#       - https://www.themoviedb.org/movie/199-star-trek-first-contact
+#       - https://www.themoviedb.org/movie/200-star-trek-insurrection
+#       - https://www.themoviedb.org/movie/201-star-trek-nemesis
+#       - https://www.themoviedb.org/movie/13475-star-trek
+#       - https://www.themoviedb.org/movie/54138-star-trek-into-darkness
+#       - https://www.themoviedb.org/movie/188927-star-trek-beyond
+#   "Star Trek: Alternative Reality":
+#     sort_title: Star Trek 2009
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/13475-star-trek
+#       - https://www.themoviedb.org/movie/54138-star-trek-into-darkness
+#       - https://www.themoviedb.org/movie/188927-star-trek-beyond
+#   "Star Trek: TNG":
+#     sort_title: Star Trek 1994
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/193-star-trek-generations
+#       - https://www.themoviedb.org/movie/199-star-trek-first-contact
+#       - https://www.themoviedb.org/movie/200-star-trek-insurrection
+#       - https://www.themoviedb.org/movie/201-star-trek-nemesis
+#   "Star Trek: TOS":
+#     sort_title: Star Trek 1979
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/152-star-trek-the-motion-picture
+#       - https://www.themoviedb.org/movie/154-star-trek-ii-the-wrath-of-khan
+#       - https://www.themoviedb.org/movie/157-star-trek-iii-the-search-for-spock
+#       - https://www.themoviedb.org/movie/168-star-trek-iv-the-voyage-home
+#       - https://www.themoviedb.org/movie/172-star-trek-v-the-final-frontier
+#       - https://www.themoviedb.org/movie/174-star-trek-vi-the-undiscovered-country
+#   Stephen Lynch:
+#     plex_search:
+#       all:
+#         genre: Musical
+#         writer: Stephen Lynch
+#     tmdb_profile: 94093-stephen-lynch
+#   Steve-O:
+#     template:
+#       name: Stand Up
+#       profile: 56585
+#   Superman Collection:
+#     sort_title: Superman 1978
+#     tmdb_collection: https://www.themoviedb.org/collection/8537
+#   "Superman: Animated":
+#     sort_title: Superman Animated 0000
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/13640-superman-doomsday?language=en-US
+#       - https://www.themoviedb.org/movie/618354-superman-man-of-tomorrow?language=en-US
+#       - https://www.themoviedb.org/movie/166076-superman-unbound?language=en-US
+#       - https://www.themoviedb.org/movie/22855-superman-batman-public-enemies?language=en-US
+#       - https://www.themoviedb.org/movie/45162-superman-batman-apocalypse?language=en-US
+#       - https://www.themoviedb.org/movie/487670-death-of-superman?language=en-US
+#       - https://www.themoviedb.org/movie/618355-superman-red-son?language=en-US
+#       - https://www.themoviedb.org/movie/630656-the-death-and-return-of-superman?language=en-US
+#       - https://www.themoviedb.org/movie/103269-superman-vs-the-elite?language=en-US
+#       - https://www.themoviedb.org/movie/56590-all-star-superman?language=en-US
+#       - https://www.themoviedb.org/movie/43641-superman-shazam-the-return-of-black-adam?language=en-US
+#       - https://www.themoviedb.org/movie/19323-superman-brainiac-attacks?language=en-US
+#       - https://www.themoviedb.org/movie/487672-reign-of-the-supermen?language=en-US
+#   TRON Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/63043
+#   Taken Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/135483
+#   Teenage Mutant Ninja Turtles (Remake) Collection:
+#     sort_title: Teenage Mutant Ninja Turtles 2014
+#     tmdb_collection: https://www.themoviedb.org/collection/401562
+#   Teenage Mutant Ninja Turtles Collection:
+#     sort_title: Teenage Mutant Ninja Turtles 1990
+#     tmdb_collection: https://www.themoviedb.org/collection/1582
+#   The Addams Family (Animated) Collection:
+#     sort_title: Addams Family 2019
+#     tmdb_collection: https://www.themoviedb.org/collection/750822
+#   The Amazing Spider-Man Collection:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Spider-Man 2012
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/1930-the-amazing-spider-man
+#       - https://www.themoviedb.org/movie/102382-the-amazing-spider-man-2
+#   The Angry Birds Collection:
+#     sort_title: Angry Birds Collection
+#     tmdb_collection: https://www.themoviedb.org/collection/531315
+#   The Beatles:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/14831-help
+#       - https://www.themoviedb.org/movie/12105-yellow-submarine
+#       - https://www.themoviedb.org/movie/704-a-hard-day-s-night
+#       - https://www.themoviedb.org/movie/34038-magical-mystery-tour
+#   The Bourne Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/31562
+#   The Butterfly Effect Collection:
+#     sort_title: Butterfly Effect Collection
+#     tmdb_collection: https://www.themoviedb.org/collection/52749
+#   The Christmas Chronicles Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/743824
+#   The Chronicles of Riddick Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/2794
+#   The Death of Superman Collection:
+#     sort_title: Superman Animated 2018
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/630656-the-death-and-return-of-superman?language=en-US
+#       - https://www.themoviedb.org/movie/487672-reign-of-the-supermen?language=en-US
+#       - https://www.themoviedb.org/movie/487670-death-of-superman?language=en-US
+#   The Incredibles Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/468222
+#   The Jack Ryan Collection:
+#     collection_mode: hide
+#     tmdb_collection: https://www.themoviedb.org/collection/192492
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/137094-jack-ryan-shadow-recruit
+#       - https://www.themoviedb.org/movie/4614-the-sum-of-all-fears
+#   The Librarian Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/85890
+#   The Man With No Name:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/429-il-buono-il-brutto-il-cattivo
+#       - https://www.themoviedb.org/movie/391-per-un-pugno-di-dollari
+#       - https://www.themoviedb.org/movie/938-per-qualche-dollaro-in-pi
+#   The Man from Earth Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/464270
+#   The Marine Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/166373
+#   The Neverending Story Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/91430
+#   The Punisher Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/635362
+#   The Raid Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/257960
+#   The Ring Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/14563
+#   The Shining Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/530064
+#   The Thing Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/479888
+#   The Transporter Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/9518
+#   The Whole Nine-Ten Yards Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/103577
+#   The Wolverine Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/453993
+#   Tom and Jerry:
+#     item_label: Kids
+#     label: Kids
+#     sort_title: Tom and Jerry 0000
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/587807-tom-jerry
+#       - https://www.themoviedb.org/movie/42246-tom-and-jerry-the-fast-and-the-furry
+#       - https://www.themoviedb.org/movie/22582-tom-and-jerry-the-movie
+#       - https://www.themoviedb.org/movie/287233-tom-and-jerry-the-lost-dragon
+#       - https://www.themoviedb.org/movie/72972-tom-and-jerry-the-wizard-of-oz
+#       - https://www.themoviedb.org/movie/14787-tom-and-jerry-the-magic-ring
+#       - https://www.themoviedb.org/movie/21078-tom-and-jerry-blast-off-to-mars
+#       - https://www.themoviedb.org/movie/60293-tom-and-jerry-shiver-me-whiskers
+#       - https://www.themoviedb.org/movie/43956-tom-and-jerry-meet-sherlock-holmes
+#       - https://www.themoviedb.org/movie/24696-tom-and-jerry-a-nutcracker-tale
+#       - https://www.themoviedb.org/movie/343977-tom-and-jerry-spy-quest
+#       - https://www.themoviedb.org/movie/403510-tom-jerry-back-to-oz
+#       - https://www.themoviedb.org/movie/455411-tom-and-jerry-willy-wonka-and-the-chocolate-factory
+#       - https://www.themoviedb.org/movie/199753-tom-and-jerry-s-giant-adventure
+#       - https://www.themoviedb.org/movie/134623-tom-and-jerry-robin-hood-and-his-merry-mouse
+#   Tomb Raider Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/2467
+#   Toy Story Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/10194
+#   Train to Busan Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/619537
+#   Trakt Watchlist:
+#     collection_mode: hide_items
+#     collection_order: custom
+#     sort_title: "**Trakt"
+#     sync_mode: sync
+#     trakt_list: https://trakt.tv/users/unabatedshagie/watchlist
+#   Transformers Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/8650
+#   Tremors Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/91799
+#   Under Siege:
+#     tmdb_collection: https://www.themoviedb.org/collection/112399
+#   Universal Soldier Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/10713
+#   What We Do In The Shadows:
+#     collection_mode: hide
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/246741-what-we-do-in-the-shadows
+#   Wizarding World (of Harry Potter) Collection:
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/1241
+#       - https://www.themoviedb.org/collection/435259
+#   World of Watches Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/3106
+#   Worlds of DC (DCUE):
+#     sort_title: DCEU
+#     trakt_list_details: https://trakt.tv/users/tetharion/lists/worlds-of-dc
+#   Wreck-It Ralph Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/404825
+#   Wrestling Road Diaries:
+#     tmdb_movie:
+#       - https://www.themoviedb.org/movie/97748-the-wrestling-road-diaries
+#       - https://www.themoviedb.org/movie/270127-the-wrestling-road-diaries-too
+#       - https://www.themoviedb.org/movie/426337-the-wrestling-road-diaries-three
+#   X-Men Collection:
+#     sort_title: X-Men 2000
+#     tmdb_collection: https://www.themoviedb.org/collection/748
+#   X-Men Universe:
+#     sort_title: X-Men 0000
+#     tmdb_collection:
+#       - https://www.themoviedb.org/collection/748
+#       - https://www.themoviedb.org/collection/453993
+#     tmdb_movie: https://www.themoviedb.org/movie/340102-the-new-mutants
+#   Young Guns Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/9329
+#   Zombieland Collection:
+#     tmdb_collection: https://www.themoviedb.org/collection/537982
+# external_templates:
+#   - file: config/templates.yml
+metadata:
+  Addams Family Values:
+    sort_title: Addams Family 1993-11-19
+  "South Park: Post Covid":
+    sort_title: South Park 2021-11-25
+  "South Park: Post Covid - The Return of Covid":
+    sort_title: South Park 2021-12-16
+  "South Park: The Streaming Wars":
+    sort_title: South Park 2022-06-01
+  "South Park: The Streaming Wars Part 2":
+    sort_title: South Park 2022-07-13
+  The Addams Family:
+    sort_title: Addams Family 1991-11-22
+  "Jackass: The Movie":
+    sort_title: Jackass 2002-10-21
+  Jackass Number Two:
+    sort_title: Jackass 2006-09-22
+  Jackass 3D:
+    sort_title: Jackass 2010-10-15
+  Jackass 3.5:
+    sort_title: Jackass 2011-04-01
+  Prey:
+    sort_title: Predator 2022-08-05
+  "Top Gun: Maverick":
+    sort_title: Top Gun 2022-05-21
+  The Batman:
+    sort_title: Batman 2022-03-01
+  The Blair Witch Project:
+    sort_title: Blair Witch Project 1999-07-28
+  A Quiet Place:
+    sort_title: Quiet Place 2018-04-03
+  The Raid:
+    sort_title: Raid 2012-03-22
+  The Raid 2:
+    sort_title: Raid 2014-03-27
+  "Jimmy Carr: His Dark Material":
+    sort_title: Jimmy Carr 2021-12-24
+  The Inside Outtakes:
+    sort_title: Bo Burnham 2022-05-30
+  Man Behind The Sun:
+    label: adult
+  The Butterfly Effect:
+    sort_title: Butterfly Effect 2004-01-22
+  Jackass 4.5:
+    sort_title: Jackass 2022-05-20
+  Jackass Forever:
+    sort_title: Jackass 2022-02-03
+  Dawn of the Planet of the Apes:
+    sort_title: Planet of the Apes 2014-07-09
+  Rise of the Planet of the Apes:
+    sort_title: Planet of the Apes 2011-08-03
+  War for the Planet of the Apes:
+    sort_title: Planet of the Apes 2017-07-11
+  Thing1:
+    title: The Thing
+    year: 1982
+    sort_title: Thing 1982-06-25
+  Thing2:
+    title: The Thing
+    year: 2011
+    sort_title: Thing 2011-10-14
