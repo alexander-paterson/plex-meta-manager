@@ -1,9 +1,10 @@
+---
 libraries:
   Audiobooks:
     library_type: music
     metadata_path:
-    - file: config/_audiobooks/audiobooks_metadata.yml
-    - file: config/_audiobooks/audiobooks_collections.yml
+      - file: config/_audiobooks/audiobooks_metadata.yml
+      - file: config/_audiobooks/audiobooks_collections.yml
     operations:
       asset_folders: true
       assets_for_all: true
@@ -48,7 +49,7 @@ mdblist:
 notifiarr:
   apikey: dc613a2c-3662-41c6-a539-89f9c9cefb47
 playlist_files:
-- file: config/playlists.yml
+  - file: config/playlists.yml
 plex:
   clean_bundles: false
   empty_trash: false
@@ -61,9 +62,9 @@ radarr:
   add_missing: true
   availability: released
   monitor: true
-  plex_path:
+  plex_path: null
   quality_profile: HD-1080p
-  radarr_path:
+  radarr_path: null
   root_folder_path: /movies
   search: false
   tag: pmm
@@ -73,24 +74,22 @@ radarr:
   version: v3
 settings:
   asset_depth: 0
-  asset_directory:
+  asset_directory: null
   asset_folders: true
   cache: true
   cache_expiration: 60
-  check_nightly: false
+  check_nightly: true
   create_asset_folders: false
-  custom_repo:
-  default_collection_order:
+  custom_repo: null
+  default_collection_order: null
   delete_below_minimum: false
   delete_not_scheduled: false
   dimensional_asset_rename: false
   download_url_assets: false
-  ignore_ids: 9771, 964943, 980017, 996361, 877188, 979160, 836529, 979166, 662151,
-    974183, 945682, 938933, 937999, 860331, 860689, 885687, 9965, 441829, 413279,
-    505945, 981611, 647375, 259910, 119569, 76535, 253980, 211387, 754926, 919255,
-    347114, 347115, 347112, 646063, 758025, 265065, 894158, 1010818, 1010819, 1010820, 1010821,
-    1010823, 1001912, 1002488, 1026208, 1026208, 220141, 82870, 236061, 78260, 193821, 73750, 1015595, 76122, 1015595, 1010830, 1038729, 1035066, 
-  ignore_imdb_ids:
+  ignore_ids: >-
+    9771, 964943, 980017, 996361, 877188, 979160, 836529, 979166, 662151, 974183, 945682, 938933, 937999, 860331, 860689, 885687, 9965, 441829, 413279, 505945, 981611, 647375, 259910, 119569, 76535, 253980, 211387, 754926, 919255, 347114, 347115, 347112, 646063, 758025, 265065, 894158, 1010818, 1010819, 1010820, 1010821, 1010823, 1001912, 1002488, 1026208, 1026208, 220141, 82870, 236061, 78260, 193821, 73750, 1015595, 76122, 1015595, 1010830, 1038729, 1035066, 979160, 1010818, 1010820, 1010821,
+    1010819, 1010823, 877188, 980017, 964943, 1001912, 1026208, 1038757
+  ignore_imdb_ids: null
   item_refresh_delay: 0
   minimum_items: 2
   missing_only_released: false
@@ -118,13 +117,13 @@ sonarr:
   cutoff_search: false
   language_profile: English
   monitor: all
-  plex_path:
+  plex_path: null
   quality_profile: HD-1080p
   root_folder_path: /tv4
   search: false
   season_folder: true
   series_type: standard
-  sonarr_path:
+  sonarr_path: null
   tag: delay, 265, pmm
   token: d9ed70408d5e405f8d0911b7838ba2f8
   upgrade_existing: false
@@ -137,18 +136,18 @@ tmdb:
   apikey: 652cc02cb8419954a82a8aad65645713
   cache_expiration: 60
   language: en
-  region:
+  region: null
 trakt:
   authorization:
     access_token: 06e7504ec3c772addb5c1073a32eb21d0672ea7d3ec8bd7e492f4d24a3f81f50
-    token_type: Bearer
+    created_at: 1668900880
     expires_in: 7889238
     refresh_token: d92eada442034a2c861b50ccfc4ef0c5f97d0e8574ae1d09c9a11f34419aff7b
     scope: public
-    created_at: 1668900880
+    token_type: Bearer
   client_id: a96b9afc8c7dd65652e58214ce79d6ba2d834e524a0b029bdefe6c4d8c1c4263
   client_secret: b7110b8e119fa6b2e40dd9ab76d85b090cbe617404453f3381d7d4e521580f18
-  pin:
+  pin: null
 webhooks:
   changes: notifiarr
   error: notifiarr

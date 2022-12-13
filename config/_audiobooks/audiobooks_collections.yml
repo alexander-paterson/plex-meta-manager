@@ -320,10 +320,6 @@ dynamic_collections:
   Audiobook Series:
     type: album_mood
     title_format: <<key_name>>
-    smart_filter:
-      any:
-        album_mood: "Series"
-      sort_by: title.asc
     remove_prefix: "Series: "
 external_templates:
   - file: config/templates.yml
