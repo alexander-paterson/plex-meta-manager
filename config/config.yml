@@ -25,7 +25,6 @@ libraries:
         PG/18: 18
       mass_content_rating_update: mdb_commonsense
     overlay_path:
-      - remove_overlays: true
       - file: config/_films/overlays.yml
     report_path: config/__reports/films_report.yml
     settings:
